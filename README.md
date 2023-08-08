@@ -1,8 +1,8 @@
 # HIPPO (High-level Interlingual Performance Proximity Optimized)
 
-Welcome to the HIPPO project repository! HIPPO is an automated benchmarking tool designed especially for language-optimized Large Language Models (LLMs). Our primary goal is to evaluate the efficacy of LLMs in terms of both grammatical accuracy and semantic closeness of translations. This dual assessment approach ensures that the translations are not only grammatically correct but also preserve the intended meaning of the original text.
+HIPPO is an automated benchmarking tool designed especially for language-optimized Large Language Models (LLMs). Our primary goal is to evaluate the efficacy of LLMs in terms of both grammatical accuracy and semantic closeness of translations. This dual assessment approach ensures that the translations are not only grammatically correct but also preserve the intended meaning of the original text.
 
-The Jupyter Notebook that can be used to reproduce these calculations can be found [here](https://github.com/gustrd/hippo/blob/main/notebooks/hippo_benchmark_colab.ipynb).
+The Jupyter Notebook that can be used to reproduce these calculations can be found [here](https://github.com/gustrd/hippo/blob/main/notebooks/hippo_benchmark_colab.ipynb). Or test it directly at Google Colab [here](https://colab.research.google.com/drive/1lvfepa5fwTkap6oYb7IlJkUqn4yR4FHB?usp=sharing)
 
 # Features
 

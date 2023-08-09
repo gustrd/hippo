@@ -49,6 +49,7 @@ The table below presents the models we've evaluated for the [Cabra](https://gith
 | Model | Fine-tuned? | Original Model | Allows Commercial Use? |HIPPO-Opus100-Grammar | HIPPO-Opus100-Paraphrase | HIPPO-Opus100-Combined |
 |-------|-------------|----------------|------------------------|----------------------|--------------------------|------------------------|
 | Llama-7B | No | N/A | No | 6.11% | 8.91% | 2.10% |
+| Canarim-7B | Yes | Falcon-7b | No | 22.85% | 21.45% | 6.50% |
 | XGen-OpenInstruct-7B | Yes | XGen-7B | Yes | 32.20% | 29.90% | 8.50% |
 | OpenLlama-Instruct-13B | Yes | OpenLlama-13B | Yes | 26.35% | 32.50% | 8.75% |
 | OpenLlama-Alpaca3B-Cleaned | Yes | OpenLlama-3B | No | 30.35% | 30.90% | 10.00% |

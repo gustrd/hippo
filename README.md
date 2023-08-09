@@ -38,8 +38,9 @@ The benchmark's final score is an aggregate, taking into account only those sent
 Threshold - 0.25
 
 - Generation parameters:
-Temperature: 0.3
-Top-P Value: 0.9
+Temperature: 0.3;
+Top-P Value: 0.9;
+Quantization : 4 bits (where applicable);
 
 # Current Results
 
@@ -61,6 +62,8 @@ The table below presents the models we've evaluated for the [Cabra](https://gith
 
 # Preliminary Conclusions
 
+- Repeatability: In our tests so far, we have observed a maximum variation of 1% in the scores across different generations. This is likely due to non-deterministic translation. Further testing with more examples is required to determine if this holds true for all models.
+
 - Importance of Fine-tuning: There's evident merit in refining models as showcased by derivatives such as Alpaca-7B and Cabrita-7B, which originated from Llama-7B. These fine-tuned versions manifested superior performance, underscoring the value of task-specific fine-tuning or leveraging specialized datasets.
 
 - Reference Models: The reference models, MarianMT for paraphrasing and LibreTranslate for grammar, consistently outperform other contenders in their specialized domains. MarianMT achieves prominence with the highest paraphrase success rate and average paraphrase chance. On the other hand, LibreTranslate stands out in ensuring grammatical accuracy. This pattern underscores the notion that while large language models (LLMs) have made substantial advancements, there remains a niche where specialized models excel.
@@ -69,7 +72,7 @@ The table below presents the models we've evaluated for the [Cabra](https://gith
 
 # Next Steps
 
-- Benchmark Consistency: Assess the repeatability and reliability of the benchmark results.
+- Benchmark Consistency: Enhance the repeatability and reliability of the benchmark results.
 
 - Generation Methodology: Explore the merits and demerits of deterministic versus non-deterministic translation.
 

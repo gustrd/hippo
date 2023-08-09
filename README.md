@@ -60,6 +60,7 @@ The table below presents the models we've evaluated for the [Cabra](https://gith
 | GPT-3.5 | Yes | - | Yes (paid service) | 38.35% | 61.45% | 22.80% | 
 | Maritaca | Yes | ? | ? | 40.80% | 59.50% | 23.15% | 
 | GPT-4 | Yes | - | Yes (paid service) | 40.65% | 61.85% | 23.95% | 
+| Google Translate (reference) | Not-LLM | Not-LLM | Yes | 39.85% | 64.30% | 24.45% |
 | MarianMT (reference) | Not-LLM | Not-LLM | Yes | 41.65% | 69.35% | 26.80% |
 | LibreTranslate (reference) | Not-LLM | Not-LLM | Yes | 44.55% | 66.40% | 27.90% |
 

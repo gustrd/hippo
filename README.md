@@ -1,3 +1,7 @@
+<p align="center" width="100%">
+<img src="assets/hippo.png" alt="HIPPO" style="width: 20%; min-width: 300px; display: block; margin: auto;">
+</p>
+
 # HIPPO (High-level Interlingual Performance Proximity Optimized)
 
 HIPPO is an automated benchmarking tool designed especially for language-optimized Large Language Models (LLMs). Our primary goal is to evaluate the efficacy of LLMs in terms of both grammatical accuracy and semantic closeness of translations. This dual assessment approach ensures that the translations are not only grammatically correct but also preserve the intended meaning of the original text.

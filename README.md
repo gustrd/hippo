@@ -61,6 +61,7 @@ The table below presents the models we've evaluated for the [Cabra](https://gith
 | MPT-7B-Instruct | Yes | MPT-7B | Yes | 29.60% | 41.80% | 11.85% |
 | Cabra-13B | Yes | OpenLlama-Instruct-13B | Yes | 35.75% | 37.75% | 12.40% |
 | Alpaca-7B | Yes | Llama-7B | No | 32.60% | 46.30% | 15.25% |
+| Zephyr-7B-Beta | Yes | Mistral-7B | Yes | 38.55% | 49.25% | 17.65% |
 | GPT-3.5 | Yes | - | Yes (paid service) | 38.35% | 61.45% | 22.80% | 
 | Maritaca | Yes | ? | ? | 40.80% | 59.50% | 23.15% | 
 | GPT-4 | Yes | - | Yes (paid service) | 40.65% | 61.85% | 23.95% | 
